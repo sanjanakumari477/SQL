@@ -1,4 +1,4 @@
-Sample Table: `employees`
+Sample Table: employees
 
 | id | name    | department | salary |
 | -- | ------- | ---------- | ------ |
@@ -8,14 +8,14 @@ Sample Table: `employees`
 | 4  | Diana   | Marketing  | 52000  |
 
 
-1. **Select All Records
+1. Select All Records
 
 SELECT * FROM employees;
 
 
 > Retrieves all columns and rows from the table.
 
- 2. **Select Specific Columns**
+ 2. Select Specific Columns
 
 SELECT name, salary FROM employees;
 
