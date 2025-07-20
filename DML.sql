@@ -62,7 +62,7 @@ WHERE employee_id = 104;
 INSERT INTO employee (employee_id, name, position, department, hire_date, salary)
 VALUES (105, 'ashwini', 'Sales Executive', 'Sales', '2023-02-12', 60000.00);
 
--- ✅ View final table data
+-- View final table data
 SELECT * FROM employee;
 
 
