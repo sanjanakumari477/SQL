@@ -1,10 +1,10 @@
--- ✅ Create a new database named 'company'
+--  Create a new database named 'company'
 CREATE DATABASE company;
 
--- ✅ Switch to the 'company' database (for some DBMS you might need to run: USE company;)
+-- Switch to the 'company' database (for some DBMS you might need to run: USE company;)
 
 
--- ✅ Create the 'employee' table with required columns
+--  Create the 'employee' table with required columns
 CREATE TABLE employee (
     employee_id INT PRIMARY KEY,       -- Unique ID for each employee
     name VARCHAR(100) NOT NULL,        -- Employee name, cannot be NULL
@@ -14,10 +14,10 @@ CREATE TABLE employee (
     salary NUMERIC(10, 2)              -- Salary with 2 decimal places
 );
 
--- ✅ View all data in the 'employee' table
+--  View all data in the 'employee' table
 SELECT * FROM employee;
 
--- ✅ Insert multiple rows into 'employee' table
+--  Insert multiple rows into 'employee' table
 INSERT INTO employee (employee_id, name, position, department, hire_date, salary)
 VALUES
     (101, 'sanju', 'Data Analyst', 'Data Science', '2022-05-15', 60000.00),
@@ -26,39 +26,39 @@ VALUES
     (104, 'ayesha', 'Marketing Specialist', 'Marketing', '2020-11-25', 45000.00),
     (105, 'ashwini', 'Sales Executive', 'Sales', '2023-02-12', 60000.00);
 
--- ⚠️ This will fail if employee_id 105 already exists (PRIMARY KEY must be unique)
+-- ⚠ This will fail if employee_id 105 already exists (PRIMARY KEY must be unique)
 
 INSERT INTO employee (employee_id, name, position, department, hire_date, salary)
 VALUES (105, 'ashwini', 'Sales Executive', 'Sales', '2023-02-12', 60000.00);
 
--- ✅ Delete the row with employee_id = 105
+--  Delete the row with employee_id = 105
 
 DELETE FROM employee
 WHERE employee_id = 105;
 
--- ✅ Drop the 'salary' column from 'employee' table
+--  Drop the 'salary' column from 'employee' table
 
 ALTER TABLE employee
 DROP COLUMN salary;
 
--- ✅ Drop 'employee2' table if it exists (clean up)
+--  Drop 'employee2' table if it exists (clean up)
 
 DROP TABLE IF EXISTS employee2;
 
--- ✅ Drop the whole 'company' database if it exists
+--  Drop the whole 'company' database if it exists
 
 DROP DATABASE IF EXISTS company;
 
--- ✅ Add the 'salary' column back to 'employee' table
+--  Add the 'salary' column back to 'employee' table
 ALTER TABLE employee
 ADD salary DECIMAL(10, 2);
 
--- ✅ Update position for employee_id = 104
+--  Update position for employee_id = 104
 UPDATE employee 
 SET position = 'Sales Manager' 
 WHERE employee_id = 104;
 
--- ✅ Re-insert the deleted row with employee_id = 105
+--  Re-insert the deleted row with employee_id = 105
 INSERT INTO employee (employee_id, name, position, department, hire_date, salary)
 VALUES (105, 'ashwini', 'Sales Executive', 'Sales', '2023-02-12', 60000.00);
 
