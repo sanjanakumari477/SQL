@@ -22,6 +22,7 @@ FROM Employees
 GROUP BY Department;
 
 
+
 Department   | AvgDeptSalary
 -------------|---------------
 HR           | 32500.00
