@@ -14,8 +14,7 @@ CREATE TABLE Marks (
 );
 
 
-
-  --Inseting data on both table 
+ --Inseting data on both table 
 
 INSERT INTO Students (student_id, name, age, department) VALUES
 (1, 'Amit', 20, 'Computer Science'),
