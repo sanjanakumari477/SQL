@@ -1,6 +1,6 @@
 Q. What comes after ORDER BY?
+Ans:
   
-Answer:
 Column name(s) and optional ASC or DESC.
 Example:
 
