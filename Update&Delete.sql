@@ -9,6 +9,7 @@ CREATE TABLE students (
 
 -- 2. Insert student records
 INSERT INTO students (id, name, age, course, grade) VALUES
+    
 (1, 'Sanjana Kumari', 20, 'BCA', 'A'),
 (2, 'Ravi Kumar', 21, 'BCA', 'B'),
 (3, 'Pooja Sharma', 19, 'BBA', 'A'),
