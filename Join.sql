@@ -1,4 +1,4 @@
-Q.Students & Courses (JOIN Example)
+--Q.Students & Courses (JOIN Example)
 Students – who are enrolled
 Courses – which they study
 Ans:-
