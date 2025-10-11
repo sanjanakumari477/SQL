@@ -1,10 +1,12 @@
 --  Create a new database named 'company'
+
 CREATE DATABASE company;
 
 -- Switch to the 'company' database (for some DBMS you might need to run: USE company;)
 
 
 --  Create the 'employee' table with required columns
+
 CREATE TABLE employee (
     employee_id INT PRIMARY KEY,       -- Unique ID for each employee
     name VARCHAR(100) NOT NULL,        -- Employee name, cannot be NULL
