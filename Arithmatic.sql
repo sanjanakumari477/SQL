@@ -1,4 +1,5 @@
 -- 1. Create table
+
 CREATE TABLE sales (
     id INT PRIMARY KEY,
     product VARCHAR(50),
@@ -7,6 +8,7 @@ CREATE TABLE sales (
 );
 
 -- 2. Insert sample data
+
 INSERT INTO sales (id, product, quantity, price) VALUES
 (1, 'Laptop', 3, 55000),
 (2, 'Laptop', 2, 60000),
@@ -18,6 +20,7 @@ INSERT INTO sales (id, product, quantity, price) VALUES
 (8, 'Headphones', 30, 1800);
 
 -- 3. Query using arithmetic operation and HAVING
+
 SELECT 
     product, 
     SUM(quantity * price) AS total_revenue,
