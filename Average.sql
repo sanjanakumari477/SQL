@@ -1,4 +1,4 @@
-Q. Find employees who earn more than average salary
+--Q. Find employees who earn more than average salary
 
   SELECT * 
 FROM Employees
