@@ -21,6 +21,7 @@ INSERT INTO Employees (EmpID, EmpName, Department, City) VALUES
 (5, 'Sandeep Kaur', 'HR', 'Chennai');
 
 -- 5. Use LIKE operation to search
+
 -- Find employees whose name starts with 'San'
 SELECT * FROM Employees
 WHERE EmpName LIKE 'San%';
