@@ -1,6 +1,5 @@
 --A condition on aggregated data (used with GROUP BY).
-
---Example:
+Eg:
 SELECT department, COUNT(*) 
 FROM employees 
 GROUP BY department 
