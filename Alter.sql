@@ -6,7 +6,6 @@ CREATE TABLE Students (
     Marks DECIMAL(5,2)
 );
 
-
 --viewing 
 SELECT * FROM Student;
 
