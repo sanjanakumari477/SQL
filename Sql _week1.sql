@@ -18,7 +18,6 @@ CREATE TABLE students_db(
     marks NUMERIC(5,2),
     city VARCHAR(50)
 );
-
 --view table
 SELECT * FROM students_db
 ORDER BY student_id ASC;
@@ -126,7 +125,6 @@ INSERT INTO students_db (student_id, roll_no, first_name, last_name, age, gender
 (99, 'R099', 'Nisha', 'Gupta', 23, 'Female', 'BCA', 2023, 80.58, 'Lucknow'),
 (100, 'R100', 'Nisha', 'Das', 25, 'Female', 'BCA', 2022, 61.9, 'Lucknow');
 
-
 BEGIN;
 
 DELETE FROM students_db
@@ -208,8 +206,6 @@ SET course_end_date =
         ELSE CURRENT_DATE + INTERVAL '1 year'
     END;
 
-
-
 SELECT CONCAT (first_name||' ' ||last_name) as full_name
 FROM students_db;
 
@@ -222,6 +218,7 @@ WHERE age BETWEEN 18 AND 22;
 SELECT COUNT(*) AS no_scholorship
 FROM students_db
 WHERE scholarship_status='Not received scholarship';
+
 
 
 
