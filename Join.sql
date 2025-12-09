@@ -7,7 +7,6 @@ CREATE TABLE Students (
     StudentID INT PRIMARY KEY,
     Name VARCHAR(50)
 );
-
 -- Create Courses table
 CREATE TABLE Courses (
     CourseID INT PRIMARY KEY,
@@ -15,7 +14,6 @@ CREATE TABLE Courses (
     StudentID INT,
     FOREIGN KEY (StudentID) REFERENCES Students(StudentID)
 );
-
 -- Insert into Students
 INSERT INTO Students (StudentID, Name) VALUES
 (1, 'Amit'),
