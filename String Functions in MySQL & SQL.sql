@@ -1,5 +1,5 @@
 use sample;
--- MySQL String Functions Examples (Real-Time Use Cases)
+
 
 
 -- 1. Extract domain from email
