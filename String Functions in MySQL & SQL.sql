@@ -1,7 +1,5 @@
 use sample;
 
-
-
 -- 1. Extract domain from email
 SELECT SUBSTRING_INDEX(email, '@', -1) AS domain from employees;
 
