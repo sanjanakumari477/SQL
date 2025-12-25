@@ -18,7 +18,6 @@ CREATE TABLE employees (
     emp_name VARCHAR(100),
     dept_id INT
 );
-
 -- Insert sample data
 INSERT INTO departments VALUES
 (1, 'HR'),
