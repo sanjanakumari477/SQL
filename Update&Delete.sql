@@ -18,12 +18,10 @@ INSERT INTO students (id, name, age, course, grade) VALUES
 
 -- 3. View all student records
 SELECT * FROM students;
-
 -- 4. Update a student's grade
 UPDATE students
 SET grade = 'A+'
 WHERE id = 4;
-
 -- 5. Delete a student record
 DELETE FROM students
 WHERE id = 5;
@@ -34,7 +32,6 @@ WHERE grade = 'A';
 SELECT COUNT(*) AS total_bca_students
 FROM students
 WHERE course = 'BCA';
-
 -- 8. Get students sorted by age (youngest first)
 SELECT * FROM students
 ORDER BY age ASC;
