@@ -27,7 +27,6 @@ WHERE id = 4;
 -- 5. Delete a student record
 DELETE FROM students
 WHERE id = 5;
-
 -- 6. Find students with grade A
 SELECT * FROM students
 WHERE grade = 'A';
