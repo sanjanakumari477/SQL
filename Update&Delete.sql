@@ -31,7 +31,6 @@ WHERE id = 5;
 -- 6. Find students with grade A
 SELECT * FROM students
 WHERE grade = 'A';
-
 -- 7. Count total students in BCA course
 SELECT COUNT(*) AS total_bca_students
 FROM students
