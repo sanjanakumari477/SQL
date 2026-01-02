@@ -12,8 +12,6 @@ CREATE TABLE Marks (
     marks INT,
     FOREIGN KEY (student_id) REFERENCES Students(student_id)
 );
-
-
  --Inseting data on both table 
 
 INSERT INTO Students (student_id, name, age, department) VALUES
