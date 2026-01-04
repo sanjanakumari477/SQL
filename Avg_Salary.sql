@@ -12,7 +12,6 @@ INSERT INTO Employees (EmpID, Name, Department, Salary) VALUES
 (5, 'Riya Das', 'HR', 30000);
 
 SELECT * FROM Employees;
-
 --Calculate the avrg salary 
 SELECT AVG(Salary) AS AverageSalary FROM Employees;
 
