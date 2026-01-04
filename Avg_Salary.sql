@@ -18,9 +18,6 @@ SELECT AVG(Salary) AS AverageSalary FROM Employees;
 SELECT Department, AVG(Salary) AS AvgDeptSalary
 FROM Employees
 GROUP BY Department;
-
-
-
 Department   | AvgDeptSalary
 -------------|---------------
 HR           | 32500.00
