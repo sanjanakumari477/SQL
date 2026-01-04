@@ -4,7 +4,6 @@ CREATE TABLE Employees (
     Department VARCHAR(50),
     Salary DECIMAL(10, 2)
 );
-
 INSERT INTO Employees (EmpID, Name, Department, Salary) VALUES
 (1, 'Sanjana Kumari', 'HR', 35000),
 (2, 'Ravi Kumar', 'IT', 48000),
