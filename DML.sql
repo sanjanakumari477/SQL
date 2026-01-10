@@ -4,7 +4,6 @@ CREATE DATABASE company;
 
 -- Switch to the 'company' database (for some DBMS you might need to run: USE company;)
 
-
 --  Create the 'employee' table with required columns
 
 CREATE TABLE employee (
