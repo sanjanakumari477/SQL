@@ -12,7 +12,6 @@ CREATE TABLE employee (
     hire_date DATE,                    -- Hire date
     salary NUMERIC(10, 2)              -- Salary with 2 decimal places
 );
-
 --  View all data in the 'employee' table
 SELECT * FROM employee;
 
