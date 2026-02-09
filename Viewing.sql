@@ -1,6 +1,7 @@
 Viewing means retrieving data from database tables so you can see, analyze, or verify records. This is mainly done using the SELECT statement.
   
 -- View All Data from a Table
+  
     SELECT * 
     FROM employees;
 
