@@ -17,12 +17,12 @@
 
 ---
 
-## 1️⃣ INNER JOIN
+## 1️ INNER JOIN
 
-### 📖 Theory
+###  Theory
 Returns only the rows where there is a match in both tables.
 
-### ✅ Query
+### Query
 ```sql
 SELECT e.emp_name, d.dept_name
 FROM Employees e
