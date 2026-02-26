@@ -5,9 +5,9 @@ CREATE TABLE Students (
     Grade CHAR(2),
     Marks DECIMAL(5,2)
 );
+
 --viewing 
 SELECT * FROM Student;
-
 -- change table name 
 ALTER TABLE Student 
 RENAME TO BCA Students;
