@@ -19,6 +19,7 @@ INSERT INTO sales (id, product, quantity, price) VALUES
 (7, 'Headphones', 25, 2000),
 (8, 'Headphones', 30, 1800);
 
+
 -- 3. Query using arithmetic operation and HAVING
 
 SELECT 
