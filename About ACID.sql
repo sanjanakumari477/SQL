@@ -99,7 +99,6 @@ SET TRANSACTION READ ONLY;
 SET TRANSACTION READ WRITE;
 
 
-
 /*========================================================
   DIFFERENCE: TCL vs DML
   --------------------------------------------------------
