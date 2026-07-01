@@ -1,7 +1,7 @@
 TCL (Transaction Control Language) is used to manage transactions in a database.
 A transaction is a logical unit of work that consists of one or more SQL statements.
 
-TCL ensures data consistency, integrity, and reliability.
+ TCL ensures data consistency, integrity, and reliability.
 
  ACID Properties 
 -----------------
